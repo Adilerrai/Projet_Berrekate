@@ -1,0 +1,7 @@
+<!-- Conditionally render navbar -->
+<app-navbar *ngIf="showHeaderFooter && showHeaderFooterregister"></app-navbar>
+
+<router-outlet></router-outlet>
+
+<!-- Conditionally render footer -->
+<app-footer *ngIf="showHeaderFooter && showHeaderFooterregister"></app-footer>

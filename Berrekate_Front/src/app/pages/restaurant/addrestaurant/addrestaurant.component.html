@@ -1,0 +1,210 @@
+<div class="container-fluid bg-breadcrumb">
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h1 class="text-white display-3 mb-4">Ajouter un restaurant</h1>
+        <!-- <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pagessss</a></li>
+            <li class="breadcrumb-item active text-white">About</li>
+        </ol>     -->
+    </div>
+</div>
+<div class="container-fluid destination py-4">
+    <div class="container py-4">
+        <div class="row g-2 align-items-center">
+            <!-- <div class="card"> -->
+                <!-- <h5 class="card-header">Add restaurant</h5> -->
+                <!-- <div class="card-body"> -->
+                    <div class="tab-class text-center">
+                        <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                            <li class="nav-item">
+                                <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                    <span class="text-dark" style="width: 200px;">Ajouter un restaurant</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-dark" style="width: 200px;">Liste des restaurants</span>
+                                </a>
+                            </li>
+                        </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col">
+                                    <div class="row g-4">
+                                        <div class="col">
+                                            <div class="container-fluid booking py-5">
+                                                <div class="container py-5">
+                                                    <div class="row g-5 align-items-center">
+                                                    <div class="col-md">
+                                                        <h1 class="text-white mb-3">Add restaurant</h1>
+                                                <form>
+                                                    <div class="row g-3">
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating">
+                                                                <input type="text" class="form-control bg-white border-1" id="name" placeholder="Your Name">
+                                                                <label for="name">Nom du restaurant</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating">
+                                                                <input type="email" class="form-control bg-white border-0" id="email" placeholder="Your Email">
+                                                                <label for="email">Addresse</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating date" id="date3" data-target-input="nearest">
+                                                                    <input type="tel" class="form-control" id="telephone" placeholder="06 12 34 56 78" aria-label="Téléphone" formControlName="telephone">
+                                                                    <label for="email">Numéro de téléphone</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating date" id="date3" data-target-input="nearest">
+                                                                <input type="text" class="form-control bg-white border-0" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                                                <label for="datetime">Site Web</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="col-md-6">
+                                                            <div class="form-floating">
+                                                                <select class="form-select bg-white border-0" id="select1">
+                                                                    <option value="1">Destination 1</option>
+                                                                    <option value="2">Destination 2</option>
+                                                                    <option value="3">Destination 3</option>
+                                                                </select>
+                                                                <label for="select1">Destination</label>
+                                                            </div>
+                                                        </div> -->
+                                                        <!-- <div class="col-md-6">
+                                                            <div class="form-floating">
+                                                                <select class="form-select bg-white border-0" id="SelectPerson">
+                                                                    <option value="1">Persons 1</option>
+                                                                    <option value="2">Persons 2</option>
+                                                                    <option value="3">Persons 3</option>
+                                                                </select>
+                                                                <label for="SelectPerson">Persons</label>
+                                                            </div>
+                                                        </div> -->
+                                                        <!-- <div class="col-md-6">
+                                                            <div class="form-floating">
+                                                                <select class="form-select bg-white border-0" id="CategoriesSelect">
+                                                                    <option value="1">Kids</option>
+                                                                    <option value="2">1</option>
+                                                                    <option value="3">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                                <label for="CategoriesSelect">Categories</label>
+                                                            </div>
+                                                        </div> -->
+                                                        <div class="col-12">
+                                                            <div class="form-floating">
+                                                                <textarea class="form-control bg-white border-0" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                                                <label for="message">Detail</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <button class="btn btn-primary text-white w-100 py-3" type="submit">Book Now</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container-fluid about py-4">
+                                        <div class="container py-4">
+                                            <div class="row align-items-center">
+                                                <div class="card">
+                                                    <h5 class="card-header">Liste des restaurants</h5>
+                                                    <div class="card-body">
+                                                        <table mat-table [dataSource]="dataSource">
+                                                            <!-- Position Column -->
+                                                            <ng-container matColumnDef="id">
+                                                              <mat-header-cell mat-header-cell *matHeaderCellDef> Numero </mat-header-cell>
+                                                              <mat-cell *matCellDef="let element"> {{element.id}} </mat-cell>
+                                                            </ng-container>
+                                                            <ng-container matColumnDef="prenom">
+                                                              <mat-header-cell mat-header-cell *matHeaderCellDef> prenom </mat-header-cell>
+                                                              <mat-cell *matCellDef="let element"> {{element.prenom}} </mat-cell>
+                                                            </ng-container>
+                                                            <ng-container matColumnDef="nom">
+                                                              <mat-header-cell mat-header-cell *matHeaderCellDef> nom </mat-header-cell>
+                                                              <mat-cell *matCellDef="let element"> {{element.nom}} </mat-cell>
+                                                            </ng-container>
+                                                            <ng-container matColumnDef="telephone">
+                                                                <mat-header-cell mat-header-cell *matHeaderCellDef> telephone </mat-header-cell>
+                                                                <mat-cell *matCellDef="let element"> {{element.telephone}} </mat-cell>
+                                                              </ng-container>
+                                                              <ng-container matColumnDef="tarif">
+                                                                <mat-header-cell mat-header-cell *matHeaderCellDef> tarif </mat-header-cell>
+                                                                <mat-cell *matCellDef="let element"> {{element.tarif}} </mat-cell>
+                                                              </ng-container>
+                                                              <!-- <ng-container matColumnDef="agent">
+                                                                <mat-header-cell mat-header-cell *matHeaderCellDef>Agent</mat-header-cell>
+                                                                <mat-cell *matCellDef="let element"> {{element.agent}} </mat-cell>
+                                                              </ng-container> -->
+                                                              <ng-container matColumnDef="date_creation">
+                                                                <mat-header-cell mat-header-cell *matHeaderCellDef> Date de creation </mat-header-cell>
+                                                                <mat-cell *matCellDef="let element"> {{element.date_creation}} </mat-cell>
+                                                              </ng-container>
+                                                              <ng-container matColumnDef="status">
+                                                                <mat-header-cell *matHeaderCellDef mat-sort-header> Status </mat-header-cell>
+                                                                <mat-cell *matCellDef="let element"> {{element.status}} </mat-cell>
+                                                              </ng-container>
+                                                             
+                                                                <!-- <ng-container  *ngIf="element.status == 'En attente'" matColumnDef="payer">
+                                                                  <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+                                                                  <mat-cell *matCellDef="let elementc">
+                                                                    <button type="submit" class="btn btn-primary m-4">Envoyer Le Contrat</button>
+                                                                  </mat-cell>
+                                                                </ng-container> -->
+                                                                <ng-container  matColumnDef="payer" class="flex-container">
+                                                                      <mat-header-cell *matHeaderCellDef mat-sort-header> Payer </mat-header-cell>
+                                                                      <mat-cell *matCellDef="let element">
+                                                                        <div *ngIf="element.status == 'En attente'">
+                                                                          <a href="https://buy.stripe.com/test_9AQ29e0gj5MH8Te6op" mat-raised-button type="submit" class="btn btn-success" target="_blank">
+                                                                            <i class='bx bx-credit-card'></i> Payer
+                                                                          </a>
+                                                                        </div>                            
+                                                                      </mat-cell>
+                                                                    </ng-container>
+                                                                
+                                                              
+                                                              <ng-container matColumnDef="actions">
+                                                                <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+                                                                <mat-cell *matCellDef="let elementc">
+                                                                  <a> <i  class="menu-icon tf-icons bx bx-edit" style="color:blue;"></i></a> 
+                                                                <a><i  class="menu-icon tf-icons bx bx-detail" style="color:blue;"></i></a>  
+                                                                <i  class="menu-icon tf-icons bx bx-trash" style="color:red;"></i>
+                                                                </mat-cell>
+                                                              </ng-container>
+                                                        
+                                                            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                                                            <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                                                          </table>    
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                     
+                            </div>
+                        </div>
+                       
+                    </div>
+                    </div>
+                  
+                <!-- </div> -->
+              <!-- </div> -->
+        </div>
+    </div>
+</div>
